@@ -9,3 +9,5 @@ export HISTTIMEFORMAT="%d/%m/%y %T "
 set -o vi
 
 export LC_CTYPE="en_US.UTF-8"
+
+export GPG_TTY=$(tty)
